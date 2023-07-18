@@ -5,7 +5,7 @@ const Greetings = () => {
   const { greet, isLoading } = useSelector((store) => store.greet);
   return (
     <div>
-      {greet.massage}
+      <h1>{isLoading ? 'loading ...' : greet.massage}</h1>
     </div>
   );
 };
