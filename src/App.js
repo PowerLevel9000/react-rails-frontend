@@ -6,9 +6,9 @@ import Greetings from './components/Greetings';
 
 function App() {
   const dispatch = useDispatch();
-  useEffect(()=> {
+  useEffect(() => {
     dispatch(getGreet());
-  }, [dispatch])
+  }, [dispatch]);
   return (
     <div className="App">
       <>hi how are you</>
