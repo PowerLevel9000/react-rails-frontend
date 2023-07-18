@@ -1,46 +1,208 @@
-# Getting Started with Create React App and Redux
+<a name="readme-top"></a>
+<!-- TABLE OF CONTENTS -->
+<div align = "center">
+  <img src="./personal-branding/adarsh-logo.png" alt="logo" width="140"  height="auto" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Backend repo
+[GitHub Repository](https://github.com/PowerLevel9000/react-rails-backend)
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+<!-- - [👁️ Presentation for Project](#video-presentation-for-our-project) -->
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
+<!-- PROJECT DESCRIPTION -->
+# 📖 React-Rails-frontend <a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React-Rails-frontend is just a simple Api fetching using react and redux for simple Greeting 
+## 🛠 Built With <a name="built-with"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm test`
+In this project we utilize our skills and knowledge to create this project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <summary>Project language </summary>
+  <ul>
+    <li>Javascript</li>
+  </ul>
+</details>
 
-### `npm run build`
+<details>
+  <summary>FrameWork</summary>
+  <ul>
+    <li>React</li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>DataBase</summary>
+  <ul>
+    <li>Postgres</li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Features -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run eject`
+- Api fetching With Random Greetings Endpoint (backend)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- GETTING STARTED -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Learn More
+To get a local copy up and running, follow these steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In order to run this project you need:
+
+- Ruby installed in your machine
+- node installed in your machine
+- Ruby on Rails installed in your machine
+- Postgres installed and all password and user being setup
+- Any integrated terminal like
+  - CMD
+  - Bash
+  - PowerShell
+  - etc
+
+### Setup
+
+Clone this repository and Backend to your desired folder:
+
+for cloning follow this steps
+- go to green `code` button very top left corner of this Repository container
+- copy your `SSH` or `https` file and clone it in your desired folder 
+- or just download `ZIP` file
+- [ ] Change UserName and Password with yours in [database.yml](./config/database.yml) file 
+
+### Install
+
+Install this project with:
+
+for now you don't need any installation to run project if you already followed [Prerequisites](#prerequisites)
+
+and 
+```
+npm install // for frontend
+
+```
+```
+bundle install // for backend
+
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+you can use it for you library purpose 
+run following commands in you `terminal` in root `dir` and if you open http://localhost:3000/ you can see App running 
+```
+npm start
+rails s -p 5000 // for backend
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+
+```
+rspec spec
+```
+
+And for Linters
+
+```
+rubocop . //=> for ruby file linting 
+npx stylelint "**/*.{css,scss}" //=> for CSS or SASS file linting 
+```
+`-A` and `--fix` for auto fixing respectively 
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Adarsh Pathak**
+
+- GitHub: [@PowerLevel9000](https://github.com/PowerLevel9000)
+- Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002)
+- LinkedIn: [Adarsh pathak](https://linkedin.com/in/PowerLevel)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+ - Archive Greetings
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+If you like this project please give it star or buy me a coffee
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank microverse to give this opportunity to show up my skills
+
+and the <a href="https://guides.rubyonrails.org/getting_started.html"> Ruby on rails docs </a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [GPL-3.0](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
